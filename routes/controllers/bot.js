@@ -3,7 +3,7 @@ const mongoose = require('mongoose')
 const bcrypt = require('bcrypt')
 const { Registration, UserChat } = require('./models')
 
-const bot = 8200140431:AAE-_qYokJeopwdTYfrasBrKSNKQa20XLNo(process.env.BOT_TOKEN)
+const bot = New Telegraf (process.env.BOT_TOKEN)
 
 bot.start(async (ctx) => {
   const userChat = await UserChat.findOne({ chat_id: ctx.chat.id })

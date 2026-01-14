@@ -11,8 +11,8 @@ const app = express()
 
 app.use(express.json())
 
-app.use('/user', require('./routes/user'))
-app.use('/otp', require('./routes/otp'))
+app.use('/user', require('../user'))
+app.use('/otp', require('../otp'))
 
 const swaggerUi = require('swagger-ui-express')
 const swaggerDocument = require('./swagger.json')

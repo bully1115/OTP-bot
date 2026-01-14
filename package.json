@@ -9,7 +9,7 @@
   "author": "Abdul Munif Hanafi <amunifhanafi@gmail.com>",
   "license": "Apache-2.0",
   "scripts": {
-    "start": "node app.js",
+    "start": "node App.js",
     "lint": "eslint --ignore-path .gitignore . --fix"
   },
   "dependencies": {
